@@ -49,10 +49,10 @@ let array = [];
           }
     })
       .join("");
-    console.log(markup)
-    console.log(inputEl.value)
-    console.log(array)
-    console.log('array lenght ---', array.length)
+    // console.log(markup)
+    // console.log(inputEl.value)
+    // console.log(array)
+    // console.log('array lenght ---', array.length)
     countryList.innerHTML = markup;
     if (array.length > 10) {
         countryList.innerHTML = ""
