@@ -10,6 +10,11 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image: url("../images/13972.jpg");
+  background-size: 350px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  
 }
 
 #search-box {
@@ -17,4 +22,37 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+li {
+  list-style-type: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  
+  border-style: dashed;
+  border-color: antiquewhite;
+  background-color: darkkhaki;
+  display: flex;
+}
+
+.country-info {
+  max-width: max-content;
+  
+}
+.country-list {
+padding-left: 0px;
+
+}
+p {
+font-weight: bold;
+font-size: 18px;
+}
+b {
+font-weight: normal;
+}
+
+li.list-item {
+  
+  display: block;
 }
